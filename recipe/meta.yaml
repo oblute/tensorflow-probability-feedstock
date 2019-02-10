@@ -12,6 +12,7 @@ source:
     - 0001-always-build-release.patch
 
 build:
+  noarch: python
   number: 0
   script: 
     - rm -f BUILD
