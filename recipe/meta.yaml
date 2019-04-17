@@ -1,5 +1,5 @@
 {% set name = "tensorflow-probability" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/tensorflow/probability/archive/v{{ version }}.tar.gz
-  sha256: 6e0e21b40555cbc1725f2fde96fa7705c160d856ae67f84107ad889896314694
+  sha256: 48df4a932ceec90d1b6f91ee39aac9c94c675c2394bbfbbea2ce885767977cd1
   patches:
     - 0001-always-build-release.patch
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: 
     - rm -f BUILD
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -26,7 +26,7 @@ requirements:
     - python
     - numpy >=1.13.3
     - six >=1.10.0
-    - tensorflow >=1.11.0
+    - tensorflow >=1.13.1
 
 test:
   imports:
