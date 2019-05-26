@@ -26,6 +26,7 @@ requirements:
     - python
     - numpy >=1.13.3
     - six >=1.10.0
+  run_constrained:
     - tensorflow >=1.13.1
 
 test:
