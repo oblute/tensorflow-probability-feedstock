@@ -31,7 +31,7 @@ requirements:
 
 test:
   commands:
-  - true
+  - echo "test disabled"
   # BLOCKED BY: conda-forge/tensorflow-feedstock#6
   #imports:
   #  - tensorflow_probability
