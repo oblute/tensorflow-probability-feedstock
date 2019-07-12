@@ -1,5 +1,5 @@
 {% set name = "tensorflow-probability" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tensorflow/probability/archive/v{{ version }}.tar.gz
-  sha256: 48df4a932ceec90d1b6f91ee39aac9c94c675c2394bbfbbea2ce885767977cd1
+  sha256: aa938dfb84e68e1f645a5543ed2e7eeb2bdc260f751e5a4e8434b25062b7a25f
   patches:
     - 0001-always-build-release.patch
 
@@ -57,3 +57,4 @@ about:
 extra:
   recipe-maintainers:
     - sodre
+    - adbeda
