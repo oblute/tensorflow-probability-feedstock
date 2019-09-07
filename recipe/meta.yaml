@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: 
     - rm -f BUILD
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -26,15 +26,13 @@ requirements:
     - python
     - numpy >=1.13.3
     - six >=1.10.0
-  run_constrained:
-    - tensorflow >=1.13.1
+    - decorator
+    - cloudpickle >=0.6.1
+    - tensorflow >=1.14.0
 
 test:
-  commands:
-  - echo "test disabled"
-  # BLOCKED BY: conda-forge/tensorflow-feedstock#6
-  #imports:
-  #  - tensorflow_probability
+  imports:
+    - tensorflow_probability
 
 about:
   home: https://www.tensorflow.org/probability/
