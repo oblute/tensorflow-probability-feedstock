@@ -123,5 +123,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@adbeda](https://github.com/adbeda/)
 * [@sodre](https://github.com/sodre/)
 
