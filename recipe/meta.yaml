@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 3
   script: 
     - rm -f BUILD
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
@@ -56,3 +56,5 @@ extra:
   recipe-maintainers:
     - sodre
     - adbeda
+    - oblute
+    - rluria14
