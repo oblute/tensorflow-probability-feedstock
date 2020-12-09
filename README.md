@@ -5,9 +5,13 @@ Home: https://www.tensorflow.org/probability/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tensorflow-probability-feedstock/blob/master/LICENSE.txt)
 
 Summary: TensorFlow Probability is a library for probabilistic reasoning and statistical analysis in TensorFlow
+
+Development: https://github.com/tensorflow/probability
+
+Documentation: https://www.tensorflow.org/probability/overview
 
 TensorFlow Probability is a library for probabilistic reasoning
 and statistical analysis in TensorFlow. As part of the TensorFlow
@@ -124,5 +128,7 @@ Feedstock Maintainers
 =====================
 
 * [@adbeda](https://github.com/adbeda/)
+* [@oblute](https://github.com/oblute/)
+* [@rluria14](https://github.com/rluria14/)
 * [@sodre](https://github.com/sodre/)
 
